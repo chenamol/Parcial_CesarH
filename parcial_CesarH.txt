@@ -25,9 +25,8 @@ PART II:
  ANSWER  VARCHAR2(255),
 
 
---CATEGORIES(id, name, season) 
---Season MUST only accept 'winter', 'summer', 'spring', 'autumn'
-CREATE TABLE CATEGORIES
+
+*CREATE TABLE CATEGORIES
 ( ID INT,
  NAME  VARCHAR2(255),
  SEASON  VARCHAR2(255),
@@ -82,6 +81,8 @@ PROFILE VENTAS
 
 4.GRANT CONNECT TO AMARTINEZ;
   GRANT BDA TO AMARTINEZ;
+
+
 
 
 
